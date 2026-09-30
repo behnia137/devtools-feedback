@@ -1,0 +1,46 @@
+name: Claude Usage Insights feedback
+description: Send feedback, report a bug or suggest an idea for Claude Usage Insights.
+labels: ["claude-usage-insights"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve **Claude Usage Insights**. Only the details field is required.
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: What kind of message is this?
+      options:
+        - "💬 Feedback (what you think)"
+        - "🐞 Bug (something is broken or looks wrong)"
+        - "💡 Idea (a feature or improvement)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: >-
+        For a bug, what you did, what you expected and what happened instead.
+        For an idea, what you are trying to do.
+      placeholder: Tell us what happened, or what you would like to see.
+    validations:
+      required: true
+
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: The page you were on (filled in for you).
+    validations:
+      required: false
+
+  - type: input
+    id: contact
+    attributes:
+      label: How can we reach you? (optional)
+      description: Email or handle, only if you want a reply.
+    validations:
+      required: false
