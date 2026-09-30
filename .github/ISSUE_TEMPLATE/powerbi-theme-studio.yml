@@ -1,11 +1,11 @@
-name: Power BI Theme Studio feedback
-description: Send feedback, report a bug or suggest an idea for Power BI Theme Studio.
+name: Report Design Studio feedback
+description: Send feedback, report a bug or suggest an idea for Report Design Studio.
 labels: ["powerbi-theme-studio"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for helping improve **Power BI Theme Studio**. Only the details field is required.
+        Thanks for helping improve **Report Design Studio**. Only the details field is required.
 
   - type: dropdown
     id: type
