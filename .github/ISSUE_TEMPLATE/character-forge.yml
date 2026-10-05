@@ -1,11 +1,11 @@
-name: Character Forge feedback
-description: Send feedback, report a bug or suggest an idea for Character Forge.
+name: Character Prompt Builder feedback
+description: Send feedback, report a bug or suggest an idea for Character Prompt Builder.
 labels: ["character-forge"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for helping improve **Character Forge**. Only the details field is required.
+        Thanks for helping improve **Character Prompt Builder**. Only the details field is required.
 
   - type: dropdown
     id: type

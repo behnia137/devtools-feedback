@@ -1,11 +1,11 @@
-name: Dev Tools feedback
-description: Send feedback, report a bug or suggest an idea for Dev Tools.
+name: BENIX feedback
+description: Send feedback, report a bug or suggest an idea for the BENIX site (benix.dev).
 labels: ["dev-tools"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for helping improve **Dev Tools**. Only the details field is required.
+        Thanks for helping improve **BENIX**. Only the details field is required.
 
   - type: dropdown
     id: type
